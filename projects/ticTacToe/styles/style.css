@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .settings-for-game {
+  width: 250px;
+}
+body .settings-for-game .settings-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+body .settings-for-game .choose-settings #random {
+  padding: 10px 15px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 15px;
+}
+body .settings-for-game .choose-settings #random:hover {
+  background-color: antiquewhite;
+}
+body .settings-for-game .choose-settings #custom {
+  padding: 10px 15px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 15px;
+}
+body .settings-for-game .choose-settings #custom:hover {
+  background-color: antiquewhite;
+}
+body .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+body .field #start {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: lightgreen;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+body .field #start:hover {
+  background-color: rgb(144, 167, 110);
+}
+body .field .game-area {
+  padding: 50px;
+  width: 315px;
+  height: 315px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 5px;
+}
+body .field .game-area .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+}
+body .signs-information {
+  border: 1px solid black;
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #399CAC;
+}
+.d-f {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.d-f .choices-div {
+  display: flex;
+}
+.d-f .choices-div .choice {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.d-f .choices-div .choice:hover {
+  background-color: gold;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.winner-box {
+  border: 1px solid green;
+}/*# sourceMappingURL=style.css.map */
